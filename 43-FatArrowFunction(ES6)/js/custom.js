@@ -20,13 +20,13 @@ console.log(sum());
 // However normal function in JS can be called anywhere, even before they are declared.
 
 // In arrow function, if your code is just 1 one line, then it get return automatically. No need for return keyword usage.
+// And you don't need to use {} braces either if code can be written in one line
 
-console.log(sub());             // Gives error in case of arrow function
+//console.log(sub());             // Gives error in case of arrow function
 
-let sub = () => {
-  let a = 15;
-  let b = 10;
-  return a - b;
-}
+let a = 15;
+let b = 10;
+
+let sub = () => a - b;
 
 console.log(sub());
