@@ -5,6 +5,8 @@
 // Its concept is pretty similar to lexical scope.
 // Even we can say Closure is combination of a function and the lexical environment within which that function is declared. 
 
+
+
 const outerFunction = (a) => {
   let b = 10;
   const innerFunction = () => {
