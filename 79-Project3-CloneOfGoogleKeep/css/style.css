@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  background-color: #f2f2f2;
+
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.btn-floating {
+  position: absolute;
+  bottom: 4rem;
+  right: 1rem;
+}
+
+.btn-floating-1 {
+  right: 5rem;
+}
+
+textarea:focus:not([readonly]) {
+  border-bottom: 0;
+}
+
+textarea.materialize-textarea {
+  border: 1px solid #26a69900;
+  padding: 5px;
+}
+
+.page-footer {
+  padding-top: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.materialize-textarea, .content {
+  height: 100px;
+}
